@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fontes/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Bauhaus';
+    src: url(/fontes/itc-bauhaus-medium.otf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-height: 100vh;
+    background-color: #042431
+}
+h2, h1{
+    font-family: 'Bauhaus', sans-serif;
+}
+
+
+header{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.tema{
+    width: 600px;
+}
+
+.atalhos{
+    display: flex;
+}
+
+.atalhos li{
+    margin-left: 10px;
+    background-color: #C81F47;
+    padding: 10px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.atalhos a{
+    color: #ffff;
+}
+
+.sobre-nos{
+    background-color: #074158;
+    padding: 50px 100px;
+    text-align: center;
+    background: url(/imagens/LOGO\ ÍCONE\ COM\ FUNDO\ 01.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-size: 70px;
+    color: red;
+    margin: 20px;
+}
+
+.sobre-nos p{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(239, 239, 239, 0.932);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sobre-nos span{
+    color: red;
+}
+
+.area-do-botao{
+    margin: 50px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #ffff;
+    padding: 10px;
+    width: 300px;
+    border: double 4px #041d28;
+    border-radius: 20px;
+    color: red;
+}
+
+
+
+
+
+
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.cursos h2{
+    font-size: 70px;
+    color: red;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;   
+}
+
+.lista-de-cursos{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #ffff;
+    width: 410px;
+    height: 450px;
+    margin: 20px;
+}
+
+.descricao-curso{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 1000px;
+    color: red;
+    height: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.curso img{
+    width: 400px;
+}
+
+
+
+
+
+
+.professores{
+    margin: 100px 0;
+}
+
+.professores h2{
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    margin-bottom: 100px;
+    background-color: white; 
+}
+
+.professor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2fb8ee46;
+    padding: 50px;
+    border-radius: 50px;
+    border: solid 3px black;
+}
+
+.victor img{
+    background-color: #041d27;
+    width: 350px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: double 10px #056d96;
+}
+
+.victor h3{
+    color: rgba(255, 255, 255, 0.859);
+    padding: 10px;
+    border: double 5px #056d96;
+    background-color: #00000067;
+    font-family: 'Bauhaus', sans-serif;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-style: italic;
+    border-radius: 50px;
+}
+
+
+.professor p{
+    width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    background-color: #020c10;
+    color: white;
+    padding: 25px;
+}
+
+.rodape h2{
+    font-size: 50px;
+}
+
+.rodape ul{
+    margin: 40px;
+}
+
+.rodape li{
+    margin-top: 40px;
+}
+
+.rodape a{
+    display: flex;
+}
+
+.rodape p{
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.rodape i{
+    color: white;
+    font-size: 30px;
+}
+
+
+
