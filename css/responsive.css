@@ -282,7 +282,11 @@
     }
    
     .sobre-nos p{
+<<<<<<< HEAD
+        font-size: 18px;
+=======
         font-size: 16px;
+>>>>>>> 66845847f165fdc859bcf4fe3a19e81bfa8a9c5a
     }
 
     .btn{
@@ -302,10 +306,13 @@
         padding: 10px;
     }
 
+<<<<<<< HEAD
     .descricao-curso{
         font-size: 15px;
     }
 
+=======
+>>>>>>> 66845847f165fdc859bcf4fe3a19e81bfa8a9c5a
     .professores h2{
         font-size: 50px;
         padding: 10px;
